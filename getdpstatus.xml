@@ -1,0 +1,9 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+<env:Body>
+<dp:request xmlns:dp="http://www.datapower.com/schemas/management">
+	<dp:get-status class="DomainStatus"/>
+</dp:request>
+</env:Body>
+</env:Envelope>
+
+
