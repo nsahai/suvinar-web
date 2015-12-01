@@ -1,0 +1,1 @@
+java -cp DPClient.jar:org-apache-commons-codec.jar   DPClient -h 172.16.203.128 -p 5550 -f getdpstatus.xml -v
