@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+	<env:Body>
+		<dp:response xmlns:dp="http://www.datapower.com/schemas/management">
+			<dp:timestamp>2015-11-30T17:57:43-05:00</dp:timestamp>
+			<dp:config>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="aaa" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">AAA Policy</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="all" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">All Categories</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="audit" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Audit Trace</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="auth" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Authentication</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="cert-monitor" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Crypto Certificate Monitor
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="cli" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">CLI Trace</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="cluster-service" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Cluster Service</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="crypto" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Crypto Subsystem</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="evtlog" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Event Subsystem</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="fibre-channel" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Fibre Channel</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="file" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">File Management</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="file-capture" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">XML File Capture</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="file-poller" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">File Poller</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ftp" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">FTP Message Exchange
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="http" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">HTTP Proxy</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="http-convert" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">HTTP to XML Converter
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ip-multicast" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">IP Multicast</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ipmi" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Intelligent Platform Management
+						Interface</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="iscsi" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">iSCSI</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="kerberos" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Kerberos Access</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="latency" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Transactional Latency
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ldap" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">LDAP Server Query</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="llm" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Low Latency Messaging
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ltpa" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">LTPA Token Access</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="memory-report" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Memory Report</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="mgmt" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Configuration Management
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="mime" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">MIME Message Processing
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="monitor" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Message Monitoring</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="mpgw" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Multi-Protocol Gateway
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="mq" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">WebSphere MQ</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="multistep" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Multistep Transformations
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="netegrity" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Netegrity SiteMinder
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="network" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Network Subsystem</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="network-file" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Network File Access
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="oauth" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">OAuth Processing</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ocsp" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">OCSP Subsystem</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="peer-group" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Peer Group</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="quiesce" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Quiesce</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="rbm" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Role-based Management
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="rpcsec-gss" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">RPC Security - Generic Security
+						Service for NFS</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="schema" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Schema Validation</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="secure-cloud-connector" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Secure Cloud Connector
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="secure-conversation" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">WS-SecureConversation Security
+						Context Management</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="self-balancing" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Self-Balancing</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="sftp" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">SFTP Message Exchange
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="slm" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Service Level Monitoring
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="smtp" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">SMTP Message Exchange
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="sql" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">SQL Data Access</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ssh" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">SSH Service</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ssl" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">SSL Processing</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="system" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">System Events</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="tam" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Tivoli Access Manager
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="tfim" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Tivoli Federated Identity
+						Manager</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="tibco-ems" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Tibco EMS</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="uddi" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">UDDI</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="uddisub" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">UDDI Subscription</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="user" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">User Management</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="useragent" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">User-Agent Subsystem
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="wasjms" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">WebSphere JMS</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="wcc" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">WebSphere Cell Configuration
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="web-token-service" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Web Token Service</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="webapp-firewall" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Web Application Firewall
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ws-proxy" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Web Service Proxy</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="wsm-agent" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Web Service Management Agent
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="wsrr" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">WebSphere Service Registry and
+						Repository</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="wtx" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">WTX</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="xacml" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">XACML</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="xmlfilter" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">XML Message Filtering
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="xmlfirewall" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">XML-Firewall Service
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="xmlparse" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">General XML Parsing
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="xmlroute" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">XML Message Routing
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="xslcoproc" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">XSL-Coprocessor Service
+					</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="xslproxy" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">XSL-Proxy Service</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="xslt" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">XSLT Compilation</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="xsltmsg" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">XSLT User Message</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogLabel xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="zosnss" intrinsic="true" read-only="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">zOS-NSS</UserSummary>
+					<Type read-only="true">pre-defined</Type>
+				</LogLabel>
+				<LogTarget xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="default-log" intrinsic="true">
+					<mAdminState read-only="true">enabled</mAdminState>
+					<UserSummary read-only="true">Default Domain Log</UserSummary>
+					<Type read-only="true">file</Type>
+					<Priority read-only="true">normal</Priority>
+					<SoapVersion read-only="true">soap11</SoapVersion>
+					<Format read-only="true">text</Format>
+					<TimestampFormat read-only="true">zulu</TimestampFormat>
+					<Size read-only="true">500</Size>
+					<LocalFile read-only="true">logtemp:///default-log</LocalFile>
+					<ArchiveMode read-only="true">rotate</ArchiveMode>
+					<Rotate read-only="true">3</Rotate>
+					<UseANSIColor read-only="true">off</UseANSIColor>
+					<SyslogFacility read-only="true">user</SyslogFacility>
+					<SigningMode read-only="true">off</SigningMode>
+					<EncryptMode read-only="true">off</EncryptMode>
+					<RateLimit read-only="true">100</RateLimit>
+					<ConnectTimeout read-only="true">60</ConnectTimeout>
+					<IdleTimeout read-only="true">15</IdleTimeout>
+					<ActiveTimeout read-only="true">0</ActiveTimeout>
+					<FeedbackDetection read-only="true">off
+					</FeedbackDetection>
+					<IdenticalEventSuppression read-only="true">off
+					</IdenticalEventSuppression>
+					<IdenticalEventPeriod read-only="true">10
+					</IdenticalEventPeriod>
+					<LogEvents>
+						<Class class="LogLabel">all</Class>
+						<Priority>error</Priority>
+					</LogEvents>
+					<LogEvents>
+						<Class class="LogLabel">mgmt</Class>
+						<Priority>notice</Priority>
+					</LogEvents>
+				</LogTarget>
+				<ProcessingMetadata xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ftp-usercert-metadata" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>dn</MetaName>
+						<DataSource>var://context/INPUT/ftp/tls/client-subject-dn
+						</DataSource>
+					</MetaItem>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>issuer</MetaName>
+						<DataSource>var://context/INPUT/ftp/tls/client-issuer-dn
+						</DataSource>
+					</MetaItem>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>serial</MetaName>
+						<DataSource>var://context/INPUT/ftp/tls/client-serial-number
+						</DataSource>
+					</MetaItem>
+				</ProcessingMetadata>
+				<ProcessingMetadata xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ftp-username-metadata" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>dn</MetaName>
+						<DataSource>var://context/INPUT/ftp/tls/client-subject-dn
+						</DataSource>
+					</MetaItem>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>issuer</MetaName>
+						<DataSource>var://context/INPUT/ftp/tls/client-issuer-dn
+						</DataSource>
+					</MetaItem>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>password</MetaName>
+						<DataSource>var://context/INPUT/ftp/password</DataSource>
+					</MetaItem>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>serial</MetaName>
+						<DataSource>var://context/INPUT/ftp/tls/client-serial-number
+						</DataSource>
+					</MetaItem>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>username</MetaName>
+						<DataSource>var://context/INPUT/ftp/username</DataSource>
+					</MetaItem>
+				</ProcessingMetadata>
+				<ProcessingMetadata xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="oauth-scope-metadata" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>scope</MetaName>
+						<DataSource>var://context/INPUT/oauth/verified-scope</DataSource>
+					</MetaItem>
+				</ProcessingMetadata>
+				<ProcessingMetadata xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="ssh-password-metadata" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>password</MetaName>
+						<DataSource>var://context/INPUT/ssh/password</DataSource>
+					</MetaItem>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>publickey</MetaName>
+						<DataSource>var://context/INPUT/ssh/publickey</DataSource>
+					</MetaItem>
+					<MetaItem>
+						<MetaCategory>variable</MetaCategory>
+						<MetaName>username</MetaName>
+						<DataSource>var://context/INPUT/ssh/username</DataSource>
+					</MetaItem>
+				</ProcessingMetadata>
+				<StylePolicy xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="default" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<UserSummary>Default Processing Policy</UserSummary>
+					<DefStylesheetForSoap>store:///filter-reject-all.xsl
+					</DefStylesheetForSoap>
+					<DefStylesheetForXsl>store:///identity.xsl</DefStylesheetForXsl>
+				</StylePolicy>
+				<URLMap xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="default-attempt-stream-all" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<URLMapRule>
+						<Pattern>*</Pattern>
+					</URLMapRule>
+				</URLMap>
+				<CompileOptionsPolicy xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="default-attempt-stream" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<XSLTVersion>XSLT10</XSLTVersion>
+					<Strict>off</Strict>
+					<TryStream class="URLMap">default-attempt-stream-all</TryStream>
+					<StackSize>524288</StackSize>
+					<WSIValidation>ignore</WSIValidation>
+					<WSDLValidateBody>strict</WSDLValidateBody>
+					<WSDLValidateHeaders>lax</WSDLValidateHeaders>
+					<WSDLValidateFaults>strict</WSDLValidateFaults>
+					<WSDLWrappedFaults>off</WSDLWrappedFaults>
+					<WSDLStrictSOAPVersion>off</WSDLStrictSOAPVersion>
+					<XACMLDebug>off</XACMLDebug>
+				</CompileOptionsPolicy>
+				<HTTPUserAgent xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="default" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<UserSummary>Default User Agent</UserSummary>
+					<MaxRedirects>8</MaxRedirects>
+					<Timeout>300</Timeout>
+				</HTTPUserAgent>
+				<XMLManager xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="default" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<UserSummary>Default XML-Manager</UserSummary>
+					<CacheSize>256</CacheSize>
+					<SHA1Caching>on</SHA1Caching>
+					<StaticDocumentCalls>on</StaticDocumentCalls>
+					<SearchResults>on</SearchResults>
+					<SupportTxWarn>off</SupportTxWarn>
+					<ParserLimitsBytesScanned>4194304</ParserLimitsBytesScanned>
+					<ParserLimitsElementDepth>512</ParserLimitsElementDepth>
+					<ParserLimitsAttributeCount>128</ParserLimitsAttributeCount>
+					<ParserLimitsMaxNodeSize>33554432</ParserLimitsMaxNodeSize>
+					<ParserLimitsForbidExternalReferences>on
+					</ParserLimitsForbidExternalReferences>
+					<ParserLimitsExternalReferences>forbid
+					</ParserLimitsExternalReferences>
+					<ParserLimitsMaxPrefixes>0</ParserLimitsMaxPrefixes>
+					<ParserLimitsMaxNamespaces>0</ParserLimitsMaxNamespaces>
+					<ParserLimitsMaxLocalNames>0</ParserLimitsMaxLocalNames>
+					<DocCacheMaxDocs>5000</DocCacheMaxDocs>
+					<DocCacheSize>0</DocCacheSize>
+					<UserAgent class="HTTPUserAgent">default</UserAgent>
+				</XMLManager>
+				<XMLManager xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="default-attempt-stream" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<UserSummary>Default Streaming XML-Manager</UserSummary>
+					<CompileOptionsPolicy class="CompileOptionsPolicy">default-attempt-stream
+					</CompileOptionsPolicy>
+					<CacheSize>256</CacheSize>
+					<SHA1Caching>on</SHA1Caching>
+					<StaticDocumentCalls>on</StaticDocumentCalls>
+					<SearchResults>on</SearchResults>
+					<SupportTxWarn>off</SupportTxWarn>
+					<ParserLimitsBytesScanned>268435456</ParserLimitsBytesScanned>
+					<ParserLimitsElementDepth>512</ParserLimitsElementDepth>
+					<ParserLimitsAttributeCount>128</ParserLimitsAttributeCount>
+					<ParserLimitsMaxNodeSize>268435456</ParserLimitsMaxNodeSize>
+					<ParserLimitsForbidExternalReferences>on
+					</ParserLimitsForbidExternalReferences>
+					<ParserLimitsExternalReferences>forbid
+					</ParserLimitsExternalReferences>
+					<ParserLimitsMaxPrefixes>0</ParserLimitsMaxPrefixes>
+					<ParserLimitsMaxNamespaces>0</ParserLimitsMaxNamespaces>
+					<ParserLimitsMaxLocalNames>0</ParserLimitsMaxLocalNames>
+					<DocCacheMaxDocs>5000</DocCacheMaxDocs>
+					<DocCacheSize>0</DocCacheSize>
+					<UserAgent class="HTTPUserAgent">default</UserAgent>
+				</XMLManager>
+				<HTTPSourceProtocolHandler xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="TestFSH">
+					<mAdminState>enabled</mAdminState>
+					<LocalAddress>0.0.0.0</LocalAddress>
+					<LocalPort>80</LocalPort>
+					<HTTPVersion>HTTP/1.1</HTTPVersion>
+					<AllowedFeatures>
+						<HTTP-1.0>on</HTTP-1.0>
+						<HTTP-1.1>on</HTTP-1.1>
+						<POST>on</POST>
+						<GET>off</GET>
+						<PUT>on</PUT>
+						<HEAD>off</HEAD>
+						<OPTIONS>off</OPTIONS>
+						<TRACE>off</TRACE>
+						<DELETE>off</DELETE>
+						<CONNECT>off</CONNECT>
+						<QueryString>on</QueryString>
+						<FragmentIdentifiers>on</FragmentIdentifiers>
+						<DotDot>off</DotDot>
+						<CmdExe>off</CmdExe>
+					</AllowedFeatures>
+					<PersistentConnections>on</PersistentConnections>
+					<AllowCompression>off</AllowCompression>
+					<MaxURLLen>16384</MaxURLLen>
+					<MaxTotalHdrLen>128000</MaxTotalHdrLen>
+					<MaxHdrCount>0</MaxHdrCount>
+					<MaxNameHdrLen>0</MaxNameHdrLen>
+					<MaxValueHdrLen>0</MaxValueHdrLen>
+					<MaxQueryStringLen>0</MaxQueryStringLen>
+					<CredentialCharset>protocol</CredentialCharset>
+				</HTTPSourceProtocolHandler>
+				<MultiProtocolGateway xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="TestMPG">
+					<mAdminState>enabled</mAdminState>
+					<Priority>normal</Priority>
+					<FrontProtocol class="HTTPSourceProtocolHandler">TestFSH</FrontProtocol>
+					<XMLManager class="XMLManager">default</XMLManager>
+					<DefaultParamNamespace>http://www.datapower.com/param/config
+					</DefaultParamNamespace>
+					<QueryParamNamespace>http://www.datapower.com/param/query
+					</QueryParamNamespace>
+					<BackendUrl>dpmq://QMgr_1/?RequestQueue=DP.RQSTQ;ReplyQueue=DP.RESPQ;TimeOut=30000;ParseHeaders=false
+					</BackendUrl>
+					<PropagateURI>on</PropagateURI>
+					<MonitorProcessingPolicy>terminate-at-first-throttle
+					</MonitorProcessingPolicy>
+					<RequestAttachments>strip</RequestAttachments>
+					<ResponseAttachments>strip</ResponseAttachments>
+					<RootPartNotFirstAction>process-in-order</RootPartNotFirstAction>
+					<FrontAttachmentFormat>dynamic</FrontAttachmentFormat>
+					<BackAttachmentFormat>dynamic</BackAttachmentFormat>
+					<MIMEFrontHeaders>on</MIMEFrontHeaders>
+					<MIMEBackHeaders>on</MIMEBackHeaders>
+					<StreamOutputToBack>buffer-until-verification</StreamOutputToBack>
+					<StreamOutputToFront>buffer-until-verification
+					</StreamOutputToFront>
+					<MaxMessageSize>0</MaxMessageSize>
+					<GatewayParserLimits>off</GatewayParserLimits>
+					<ParserLimitsElementDepth>512</ParserLimitsElementDepth>
+					<ParserLimitsAttributeCount>128</ParserLimitsAttributeCount>
+					<ParserLimitsMaxNodeSize>33554432</ParserLimitsMaxNodeSize>
+					<ParserLimitsForbidExternalReferences>on
+					</ParserLimitsForbidExternalReferences>
+					<ParserLimitsExternalReferences>forbid
+					</ParserLimitsExternalReferences>
+					<ParserLimitsMaxPrefixes>0</ParserLimitsMaxPrefixes>
+					<ParserLimitsMaxNamespaces>0</ParserLimitsMaxNamespaces>
+					<ParserLimitsMaxLocalNames>0</ParserLimitsMaxLocalNames>
+					<ParserLimitsAttachmentByteCount>2000000000
+					</ParserLimitsAttachmentByteCount>
+					<ParserLimitsAttachmentPackageByteCount>0
+					</ParserLimitsAttachmentPackageByteCount>
+					<DebugMode persisted="false">off</DebugMode>
+					<DebugHistory>25</DebugHistory>
+					<FlowControl>off</FlowControl>
+					<SOAPSchemaURL>store:///schemas/soap-envelope.xsd</SOAPSchemaURL>
+					<FrontTimeout>120</FrontTimeout>
+					<BackTimeout>120</BackTimeout>
+					<FrontPersistentTimeout>180</FrontPersistentTimeout>
+					<BackPersistentTimeout>180</BackPersistentTimeout>
+					<IncludeResponseTypeEncoding>off</IncludeResponseTypeEncoding>
+					<BackHTTPVersion>HTTP/1.1</BackHTTPVersion>
+					<PersistentConnections>on</PersistentConnections>
+					<LoopDetection>off</LoopDetection>
+					<DoHostRewriting>on</DoHostRewriting>
+					<DoChunkedUpload>off</DoChunkedUpload>
+					<ProcessHTTPErrors>on</ProcessHTTPErrors>
+					<HTTPClientIPLabel>X-Client-IP</HTTPClientIPLabel>
+					<InOrderMode>
+						<Request>off</Request>
+						<Backend>off</Backend>
+						<Response>off</Response>
+					</InOrderMode>
+					<WSAMode>sync2sync</WSAMode>
+					<WSARequireAAA>on</WSARequireAAA>
+					<WSAStrip>on</WSAStrip>
+					<WSADefaultReplyTo>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous
+					</WSADefaultReplyTo>
+					<WSADefaultFaultTo>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous
+					</WSADefaultFaultTo>
+					<WSAForce>off</WSAForce>
+					<WSAGenStyle>sync</WSAGenStyle>
+					<WSAHTTPAsyncResponseCode>204</WSAHTTPAsyncResponseCode>
+					<WSATimeout>120</WSATimeout>
+					<WSRMEnabled>off</WSRMEnabled>
+					<WSRMSequenceExpiration>3600</WSRMSequenceExpiration>
+					<WSRMDestinationAcceptCreateSequence>on
+					</WSRMDestinationAcceptCreateSequence>
+					<WSRMDestinationMaximumSequences>400
+					</WSRMDestinationMaximumSequences>
+					<WSRMDestinationInOrder>off</WSRMDestinationInOrder>
+					<WSRMDestinationMaximumInOrderQueueLength>10
+					</WSRMDestinationMaximumInOrderQueueLength>
+					<WSRMDestinationAcceptOffers>off</WSRMDestinationAcceptOffers>
+					<WSRMFrontForce>off</WSRMFrontForce>
+					<WSRMBackForce>off</WSRMBackForce>
+					<WSRMBackCreateSequence>off</WSRMBackCreateSequence>
+					<WSRMFrontCreateSequence>off</WSRMFrontCreateSequence>
+					<WSRMSourceMakeOffer>off</WSRMSourceMakeOffer>
+					<WSRMUsesSequenceSSL>off</WSRMUsesSequenceSSL>
+					<WSRMSourceMaximumSequences>400</WSRMSourceMaximumSequences>
+					<WSRMSourceRetransmissionInterval>10
+					</WSRMSourceRetransmissionInterval>
+					<WSRMSourceExponentialBackoff>on</WSRMSourceExponentialBackoff>
+					<WSRMSourceMaximumRetransmissions>4
+					</WSRMSourceMaximumRetransmissions>
+					<WSRMSourceMaximumQueueLength>30</WSRMSourceMaximumQueueLength>
+					<WSRMSourceRequestAckCount>1</WSRMSourceRequestAckCount>
+					<WSRMSourceInactivityClose>360</WSRMSourceInactivityClose>
+					<ForcePolicyExec>off</ForcePolicyExec>
+					<RewriteErrors>on</RewriteErrors>
+					<DelayErrors>on</DelayErrors>
+					<DelayErrorsDuration>1000</DelayErrorsDuration>
+					<RequestType>soap</RequestType>
+					<ResponseType>soap</ResponseType>
+					<FollowRedirects>on</FollowRedirects>
+					<StylePolicy class="StylePolicy">default</StylePolicy>
+					<Type>static-backend</Type>
+					<AllowCompression>off</AllowCompression>
+					<AllowCacheControlHeader>off</AllowCacheControlHeader>
+				</MultiProtocolGateway>
+				<WSStylePolicy xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="default" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<UserSummary>Default Processing Policy</UserSummary>
+					<DefStylesheetForSoap>store:///filter-reject-all.xsl
+					</DefStylesheetForSoap>
+					<DefStylesheetForXsl>store:///identity.xsl</DefStylesheetForXsl>
+				</WSStylePolicy>
+				<NFSDynamicMounts xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="default" intrinsic="true">
+					<mAdminState>disabled</mAdminState>
+					<Version>3</Version>
+					<Transport>tcp</Transport>
+					<Authentication>auth_sys</Authentication>
+					<MountType>hard</MountType>
+					<ReadOnly>off</ReadOnly>
+					<ReadSize>4096</ReadSize>
+					<WriteSize>4096</WriteSize>
+					<Timeout>7</Timeout>
+					<Retransmissions>3</Retransmissions>
+					<IdleUnmountSeconds>900</IdleUnmountSeconds>
+					<MountTimeoutSeconds>30</MountTimeoutSeconds>
+				</NFSDynamicMounts>
+				<SLMAction xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="notify">
+					<mAdminState>enabled</mAdminState>
+					<Type>log-only</Type>
+					<LogLevel>warn</LogLevel>
+				</SLMAction>
+				<SLMAction xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="shape">
+					<mAdminState>enabled</mAdminState>
+					<Type>shape</Type>
+					<LogLevel>debug</LogLevel>
+				</SLMAction>
+				<SLMAction xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="throttle">
+					<mAdminState>enabled</mAdminState>
+					<Type>reject</Type>
+					<LogLevel>debug</LogLevel>
+				</SLMAction>
+				<Statistics xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="default" intrinsic="true">
+					<mAdminState>disabled</mAdminState>
+					<LoadInterval read-only="true">1000</LoadInterval>
+				</Statistics>
+				<WebServicesAgent xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+					name="default" intrinsic="true">
+					<mAdminState>enabled</mAdminState>
+					<MaxRecords>3000</MaxRecords>
+					<MaxMemoryKB>64000</MaxMemoryKB>
+					<CaptureMode>faults</CaptureMode>
+					<BufferMode>discard</BufferMode>
+					<MediationMetrics>off</MediationMetrics>
+				</WebServicesAgent>
+			</dp:config>
+		</dp:response>
+	</env:Body>
+</env:Envelope>
